@@ -13,5 +13,8 @@ public class ProjetTest {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("Netbeansssssssss");
+        
+        NewClass newclass = new NewClass();
+        newclass.compteur(15); 
     }
 }

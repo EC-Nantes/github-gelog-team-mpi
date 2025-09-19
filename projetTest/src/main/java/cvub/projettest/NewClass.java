@@ -9,5 +9,9 @@ package cvub.projettest;
  * @author utaab
  */
 public class NewClass {
-    
+    public static void compteur(int n){
+        for (int i = 0; i<n; i++){
+            System.out.println(i);
+        }
+    }
 }
